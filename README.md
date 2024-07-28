@@ -13,20 +13,42 @@
   git clone https://github.com/kckc0608/hiarc-icpc-study.git
   ```
 **2. 자신의 아이디(백준이나 깃허브)로 브랜치를 만들어주세요.**
-  ```shell
-  git checkout -b 아이디  (ex. git checkout -b kckc0608)
-  ```
+    
+    ```shell
+    git checkout -b 아이디  (ex. git checkout -b kckc0608)
+    ```
+
+  ![image](https://github.com/user-attachments/assets/9a71a448-293d-4d62-9138-f1dd7c3127ef)
+
+  `git branch` 명령어를 실행했을 때, 자신의 아이디에 *가 보이면 잘 된거에요.
+  
 **4. 백준 문제를 푼 뒤, 자신 아이디 이름의 폴더 안에 새로 문제 번호를 이름으로 한 파일을 만들어 제출한 소스코드를 작성합니다.**
   ```
   자신 이름의 폴더 안에 문제 번호를 이름으로 한 소스코드 파일을 만듭니다.
   만약 1000 번 문제를 파이썬으로 풀었다면 파일 이름은 '1000.py' 와 같이 작성하고, 그 안에 제출한 소스코드를 적습니다.
   ```
+
 **5. 이제 커밋하고, 레포지토리에 push 합니다.**
   ```shell
   git add .                # . 도 같이 적어주세요!
   git commit -m "자유롭게 커밋 메세지 적기(1000 - A+B) 등"
   git push
   ```
+
+![image](https://github.com/user-attachments/assets/b0d5218f-bfc6-48ec-bb00-4e6fe08982b9)
+
+`git add .`, `git commit -m "commit message"` 명령어를 실행한 모습입니다.
+
+![image](https://github.com/user-attachments/assets/0a3d9aea-713f-4cf8-bb06-25256dec5231)
+
+`git push` 를 실행했을 때 처음에 이런 오류가 나올 수 있습니다.
+
+![image](https://github.com/user-attachments/assets/81a487cc-62e1-4563-bdc8-544a71b142ff)
+
+입력하라는대로 `git push --set-upstream origin 브랜치이름` 를 입력해줍니다.
+다음에 push 할 때는 이 과정을 거칠 필요 없이 `git push` 만 하면 됩니다.
+
+
 **6. 이 레포지토리 메인 화면으로 돌아오면 PR을 생성하는 UI가 보일 거에요. PR을 양식에 맞게 작성합니다.**
 
 **7. 서로 댓글을 남겨주고, 머지하면 끝납니다!**
