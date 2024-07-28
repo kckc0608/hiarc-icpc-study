@@ -50,9 +50,15 @@
 다음에 push 할 때는 이 과정을 거칠 필요 없이 `git push` 만 하면 됩니다.
 
 
-**5. 이 레포지토리 메인 화면으로 돌아오면 PR을 생성하는 UI가 보일 거에요. PR을 양식에 맞게 작성합니다.**
+**5. PR을 양식에 맞게 작성합니다.**
 
 ![image](https://github.com/user-attachments/assets/23c6392e-0ea9-4213-ac87-848d2a4f72a0)
+
+`git push` 를 한 이후에는 이렇게 PR(Pull Request)을 작성할 수 있는 UI가 보입니다.
+
+![image](https://github.com/user-attachments/assets/4f7eed3f-c2d5-4bea-8fae-d32f7cdea990)
+
+해당 UI를 클릭한 뒤, 이렇게 양식에 맞춰 PR을 작성해주세요.
 
 
 **6. 서로 댓글을 남겨주고, 머지하면 끝납니다!**
