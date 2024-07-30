@@ -1,6 +1,6 @@
 n=int(input())
 if n==1:
-    print('0')
+    print('1')
     
 
     
@@ -9,15 +9,18 @@ else:
     baseDistance=0
     rowsum=1
     rowsumlst=[1]
-    for i in range(1,n-n//10000):
+    i=1
+    while rowsum<n:
         rowsum+=i*6
-        rowsumlst+=[rowsum]
-    
+        i+=1
+        rowsumlst.append(rowsum)
 
+    
 
     for x in range(0,len(rowsumlst)-1):
         if rowsumlst[x]<n<=rowsumlst[x+1]:
             row=x+1
+            break
 
 
     points=[rowsumlst[row]]
@@ -36,7 +39,7 @@ else:
     
 
     distance=baseDistance+row+1
-    if row>4:
-        print(distance-3)
-    else:
-        print(distance)
+   
+    print(distance-baseDistance)
+  
+    
